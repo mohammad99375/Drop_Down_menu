@@ -37,7 +37,7 @@ body{
     position: absolute;
     background-color: blue;
     width: 110px;
-    top: -500px;
+    top: -5000000000px;
 }
 
 .menu_bar ul li:hover ul{
