@@ -1,0 +1,74 @@
+/* Menu Bar */
+body{
+    background-color: antiquewhite;
+}
+.menu_bar{
+    background-color: blue;
+    min-height: 40px;
+    width: 490px;  
+    margin: 0px auto;
+}
+
+.menu_bar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px 10px;
+
+ }
+
+.menu_bar ul li{
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+
+.menu_bar ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+     transform: scale(1.1);
+}
+
+/*Sub Menu */
+.menu_bar ul li ul{
+    position: absolute;
+    background-color: blue;
+    width: 110px;
+    top: -500px;
+}
+
+.menu_bar ul li:hover ul{
+    left: 0px;
+    top: 40px;
+    transition: .5s;
+}
+
+.menu_bar ul li ul li{
+    clear: both;
+    padding: 0px 5px;
+}
+
+
+
+.menu_bar ul li ul li a{
+    display: block;
+}
+
+.menu_bar ul li ul li a:hover{
+    
+}
+
+.menu_bar ul li a:hover{
+    color: red;        
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+h1:hover{
+    color: aqua;
+}
